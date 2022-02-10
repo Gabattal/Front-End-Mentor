@@ -1,0 +1,47 @@
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pageBackground {
+    height: 95vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 230px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 12px;
+}
+
+.text-important {
+    color: hsl(218, 44%, 22%);
+    font-family: Oufit;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.text {
+    color: hsl(220, 15%, 55%);
+    font-family: Oufit;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.attribution {
+    text-align: center;
+}
